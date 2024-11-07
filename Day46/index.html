@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: burlywood;
+            width: 30vw;
+            height: 80vh;
+        }
+
+        .box{
+        
+            height: 45px;
+            width: 34px;
+            /*animation-name: avikaAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out ;
+            animation-direction: alternate-reverse; */
+
+            animation: avikaAnimation 2s  ease-in-out 1 ;
+            
+
+        }
+
+        @keyframes avikaAnimation {
+            from{
+                 background-color: red;
+            }
+            to{
+                background-color: yellow;
+                transform: translateX(100px);
+            }
+        }
+
+        @keyframes avi2 {
+            0%{
+                transform: rotate(100deg);
+            }
+            100%{
+                transform: rotate(200deg);
+            }
+            300%{
+                transform: rotate(230deg);
+            }
+            320%{
+                transform: rotate(270deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

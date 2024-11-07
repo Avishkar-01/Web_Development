@@ -1,0 +1,31 @@
+Semantic tags are HTML elements that clearly describe their meaning to both the browser and the developer. They provide additional context about the content they enclose, making it easier for search engines, accessibility tools, and developers to understand the structure and purpose of the webpage.
+
+Unlike non-semantic tags like `<div>` or `<span>`, which don’t convey any specific meaning beyond layout or styling, semantic tags explicitly define the role of the content. This leads to better accessibility, improved SEO, and more readable code.
+
+### Common Semantic Tags
+Here are some widely used semantic HTML tags:
+
+1. `<header>`: Represents the header of a webpage or a section, typically containing navigation links, logos, or titles.
+   
+2. `<nav>`: Defines a block of navigation links.
+   
+3. `<article>`: Represents a self-contained piece of content, such as a blog post or news article.
+   
+4. `<section>`: Groups related content, usually thematically connected.
+   
+5. `<aside>`: Refers to content that is tangentially related to the main content, such as sidebars or advertisements.
+   
+6. `<footer>`: Represents the footer of a webpage or section, typically containing contact info, links, or copyright statements.
+
+7. `<main>`: Specifies the main content of the document, excluding sidebars, headers, or footers.
+
+8. `<figure>` and `<figcaption>`: Used for images, diagrams, or illustrations, with `figcaption` providing a caption for the image.
+
+### Benefits of Using Semantic Tags
+- Accessibility: Assistive technologies (like screen readers) can easily identify and navigate through the webpage structure.
+  
+- SEO (Search Engine Optimization): Search engines can better understand the page’s content, improving ranking and visibility.
+
+- Code Clarity: Makes the HTML code easier to read and maintain by defining the purpose of each section.
+
+By using semantic tags, you improve both the functionality and the accessibility of your webpages.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form To Apply for the role of Web Developer</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" id ="username" name="username" placeholder="Enter Your UserName">
+        </div>
+        <div>
+            Gender
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="follow" name="follow" value="yes">
+            <label for="follow">follow me on linkedin</label>
+        </div>
+        <div>
+            <label for="comment">Enter Your Comment</label>
+            <textarea name="comment" rows="4" cols="50" id="comment"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="apple">Banana</option>
+                <option value="apple">Orange</option>
+                <option value="apple">Pineapple</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
