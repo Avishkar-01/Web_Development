@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting and removing element from html</title>
+    
+</head>
+<body>
+   <div class="container">
+       <div class="box">I am a Box</div>
+       <div class="box">I am a Box</div>
+       <div class="box">I am a Box</div>
+       <div class="box">I am a Box</div>
+   </div>
+
+   <script src="script.js">
+
+    let div = document.createElement("div");
+    div.innerHTML = "I have been Inserted <b>By Avi </b>"
+    div.setAttribute("class", "created");
+    document.querySelector(".container").append(div);
+   </script>
+</body>
+</html>
